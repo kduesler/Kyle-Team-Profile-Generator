@@ -83,7 +83,7 @@ return `<div
       class="list-group-item"
       style="font-size: 100%; background-color: #f0e68c; color: black"
     >
-      GitHub: <a href=github.com/${engineer.gitHub}>${engineer.gitHub}</a>
+      GitHub: <a href=https://github.com/${engineer.gitHub}>${engineer.gitHub}</a>
     </li>
   </ul>
 </div>`;
