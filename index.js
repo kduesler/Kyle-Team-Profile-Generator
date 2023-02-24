@@ -134,7 +134,7 @@ function menu() {
       const htmlString = generateHTML(members).join("");
       console.log(htmlString);
       //write htmlString to file
-      fs.writeFile('test.html', htmlString, (err) =>
+      fs.writeFile('directory.html', htmlString, (err) =>
   err ? console.error(err) : console.log('Success!')
 );
     }
